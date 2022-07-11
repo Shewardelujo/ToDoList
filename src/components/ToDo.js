@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/ToDo.css";
 
 const ToDo = ({ todo, handleToggle }) => {
   const handleClick = (e) => {
@@ -6,7 +7,10 @@ const ToDo = ({ todo, handleToggle }) => {
     handleToggle(todo.id);
   };
   return (
-    <div className={todo.complete ? "strike" : ""} onClick={handleClick}>
+    <div
+      className={todo.complete ? "strike eachTodo" : "eachTodo"}
+      onClick={handleClick}
+    >
       {todo.task}
     </div>
   );

@@ -1,9 +1,10 @@
 import { useState } from "react";
-import "./App.css";
-import Header from "./components/Header";
-import ToDoForm from "./components/ToDoForm";
-import ToDoList from "./components/ToDoList";
-import data from "./mock-data/data.json";
+import "../style/App.css";
+
+import ToDoForm from "./ToDoForm";
+import ToDoList from "./ToDoList";
+import data from "../mock-data/data.json";
+import Header from "./Header";
 
 function App() {
   const [toDoList, setToDoList] = useState(data);
