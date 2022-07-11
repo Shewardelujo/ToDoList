@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "task": "Take my crypto classes",
+    "complete": true
+  },
+  {
+    "id": 2,
+    "task": "Take my Digital Illustration classes",
+    "complete": true
+  },
+  {
+    "id": 3,
+    "task": "Do laundry",
+    "complete": false
+  },
+  {
+    "id": 4,
+    "task": "Make my confessions",
+    "complete": true
+  },
+  {
+    "id": 5,
+    "task": "Data Structures and Algorithm",
+    "complete": false
+  },
+  {
+    "id": 6,
+    "task": "Make my hair",
+    "complete": true
+  },
+  {
+    "id": 7,
+    "task": "Eat launch",
+    "complete": false
+  },
+  {
+    "id": 8,
+    "task": "Visit my loved ones",
+    "complete": true
+  },
+  {
+    "id": 9,
+    "task": "Routine exercise",
+    "complete": false
+  },
+  {
+    "id": 10,
+    "task": "Play candy crush",
+    "complete": true
+  },
+  {
+    "id": 11,
+    "task": "Listen to music",
+    "complete": true
+  },
+  {
+    "id": 12,
+    "task": "Change the bulb",
+    "complete": false
+  },
+  {
+    "id": 13,
+    "task": "Read my atomic habit book",
+    "complete": true
+  }
+]
