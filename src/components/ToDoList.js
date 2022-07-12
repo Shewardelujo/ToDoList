@@ -5,6 +5,7 @@ import "../style/ToDoList.css";
 const ToDoList = ({ toDoList, handleToggle, handleFilter }) => {
   return (
     <div className="todo-list">
+      {/* <div>Pending task</div> */}
       {toDoList.map((todo) => {
         return <ToDo todo={todo} handleToggle={handleToggle} key={todo.id} />;
       })}
